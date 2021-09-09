@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Document_emp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Document_tout_emp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Employées.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Liste_Affectation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="List_projets.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Récupéré.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Update_account.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Employées.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Login.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
